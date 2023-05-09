@@ -16,10 +16,15 @@ Roll back to specific commit: git checkout {git id}
 Roll to the newest – the present commit: git checkout {branch name}
 Checking branch name: git branch
 Creat a new branch: git checkout -b {branch name}
-	File only appear in the branch where it was created
+File only appear in the branch where it was created
 Merge branch: git merge {name of branch that will merge with the present branch}
 Delete branch: git branch -d {branch name}
 Lesson 3: Github
 Up load repository on github: git push HTTPs
 Update change for repo on github: git push HTTPs {branch name}
 Set elias to reuse HTTPs faster: git remote add #name
+Cloning project to local device: git clone HTTPs
+Push local branch onto github: git push -u origin {branch name}
+Pull branch from github: git fecth
+Git checkout -b {branch name} origin(elias)/{branch name}
+Pull change from github: git pull
